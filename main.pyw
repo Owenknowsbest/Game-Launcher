@@ -26,7 +26,8 @@ class GameTab(Frame):
         self.DescText = game["Display"]["Description"]
         if "UseReadme" in game["Display"] and game["Display"]["UseReadme"]:
             read_me_data = urllib.request.urlopen(game["ReadmeURL"])
-            self.DescText += "\n\n-- READ ME --\n\n"
+            if len(self.DescText) > 0:
+                self.DescText += "\n\n-- READ ME --\n\n"
             self.DescText += read_me_data.read().decode('utf-8')
         self.GameData = game
         self.InstallStatus = False
