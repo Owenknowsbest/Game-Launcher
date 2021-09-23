@@ -4,7 +4,8 @@
 		"Comment": "Make sure to remove the Ignore line. Make sure to also set the Title and Description, and use a unique FileName",
 		"Display": {
 			"Title": "Example",
-			"Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			"Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+			"UseReadme": false
 		},
 		"DownloadURL": "https://github.com/Owenknowsbest/Py-Clicker/releases/download/Stable/pyclicker.zip",
 		"FileName": "example.zip",
@@ -20,9 +21,11 @@
 	{
 		"Display": {
 			"Title": "Py Clicker",
-			"Description": "Py Clicker is a project of mine that is just bad cookie clicker"
+			"Description": "Py Clicker is a project of mine that is just bad cookie clicker",
+			"UseReadme": true
 		},
 		"DownloadURL": "https://github.com/Owenknowsbest/Py-Clicker/releases/download/Stable/pyclicker.zip",
+		"ReadmeURL": "https://github.com/Owenknowsbest/Py-Clicker/raw/main/README.md",
 		"FileName": "pyclicker.zip",
 		"StartFile": {
 			"FileName": "main.pyw",
