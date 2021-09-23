@@ -1,6 +1,6 @@
 import urllib.request
 from os import remove
-from shutil import move
+from shutil import copy
 
 
 print("Checking for updates")
@@ -13,7 +13,7 @@ with open("temp", "r") as file:
     if mainData != data:
         print("Updating main.pyw!")
         remove("main.pyw")
-        move("temp", "main.pyw")
+        copy("temp", "main.pyw")
 remove("temp")
 gameData = ""
 with open("config.json", "r") as file:
@@ -24,6 +24,6 @@ with open("temp", "r") as file:
     if gameData != data:
         print("Updating config.json!")
         remove("config.json")
-        move("temp", "config.json")
+        copy("temp", "config.json")
 remove("temp")
 print("Finished!")
