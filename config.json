@@ -39,9 +39,11 @@
 	{
 		"Display": {
 			"Title": "Moveee",
-			"Description": "A small (and unfinished) unity game me and a friend made"
+			"Description": "A small (and unfinished) unity game me and a friend made",
+			"UseReadme": false
 		},
 		"DownloadURL": "https://github.com/extremjaws/Moveeeeeeeeee/releases/download/stable/Builds.zip",
+		"ReadmeURL": "https://github.com/Owenknowsbest/Moveeeeeeeeee/raw/main/README.md",
 		"FileName": "moveee.zip",
 		"StartFile": {
 			"FileName": "builds/Moveeeeeeeee.exe",
