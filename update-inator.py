@@ -14,6 +14,7 @@ with open("temp", "r") as file:
         print("Updating main.pyw!")
         remove("main.pyw")
         move("temp", "main.pyw")
+remove("temp")
 gameData = ""
 with open("config.json", "r") as file:
     gameData = file.read()
@@ -24,4 +25,5 @@ with open("temp", "r") as file:
         print("Updating config.json!")
         remove("config.json")
         move("temp", "config.json")
-print("Updated!")
+remove("temp")
+print("Finished!")
